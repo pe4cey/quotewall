@@ -1,0 +1,32 @@
+body {
+}
+
+h1 {
+	font-size: 46px;
+}
+
+.card {
+	float:left;
+	width: 500px;
+	height: 250px;
+	margin: 50px;
+	background-color: yellow;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-webkit-box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #888;
+}
+
+.quote {
+	padding: 20px 26px;
+	font-family: 'Annie Use Your Telescope', cursive;
+	font-size: 46px;
+}
+
+.name {
+	font-style: italic;
+	background-image: ;
+}
+
+#cardWall {
+	height: 800px;
+}
