@@ -6,13 +6,13 @@ shuffle = function(o){ //v1.0
 	return o;
 };
 
-var randorder = shuffle([-5,-2,1,2,4,6]);
+var getDegrees = shuffle([-5,-2,1,2,4,6]);
 var index = 0;
 
 $().ready( function() {
 	$(".card").each( function(index, element) {
-		$(element).css("-webkit-transform","rotate("+ randorder[index++] +"deg)");
-		$(element).css("-moz-transform","rotate("+ randorder[index++] +"deg)");
+		$(element).css("-webkit-transform","rotate("+ getDegrees[index++] +"deg)");
+		$(element).css("-moz-transform","rotate("+ getDegrees[index++] +"deg)");
 	});
 });
 
