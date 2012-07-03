@@ -1,8 +1,9 @@
 require 'rubygems'
 require 'sinatra'
+require 'haml'
 
 set :public_folder, 'public'
 
 get '*' do
-  redirect 'index.html'
+  haml :index
 end
